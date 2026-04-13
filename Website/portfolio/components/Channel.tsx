@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 interface ChannelProps {
   title: string;
-  icon: string;
+  icon: React.ReactNode;
   onClick: () => void;
   onMouseEnter: () => void;
 }
