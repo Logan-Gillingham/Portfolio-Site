@@ -8,7 +8,7 @@ import { useWiiContext } from "@/context/AudioContext";
 import { 
   Code2, User, TabletSmartphone, Server, 
   Layers, ShoppingCart, Cloud, BrainCircuit, 
-  FolderGitIcon, Gamepad2, Mail 
+  FolderGitIcon, Gamepad2, Mail, Award
 } from "lucide-react";
 
 
@@ -19,11 +19,11 @@ interface Project {
 }
 
 const CHANNELS: Project[] = [
-  { title: "Projects Channel", icon: <Code2 size={48} />, desc: "View my projects and things i'm working on." },
+  { title: "Projects", icon: <Code2 size={48} />, desc: "View my projects and things i'm working on." },
   { title: "Mii Channel", icon: <User size={48} />, desc: "Learn more about my background and skills." },
-  { title: "Weather App", icon: <Cloud size={48} />, desc: "Real-time weather tracking with dynamic backgrounds." },
-  { title: "News Channel", icon: "📰", desc: "News about what i'm working on." },
-  { title: "Contact Channel", icon: <TabletSmartphone size={48} />, desc: "Predictive data visualization project." },
+  { title: "Certifications", icon: <Award size={48} />, desc: "View my certifications." },
+  { title: "Resume", icon: "📰", desc: "See my experience and skills." },
+  { title: "Contact", icon: <TabletSmartphone size={48} />, desc: "Reach out to me!" },
   { title: "GitHub", icon: <FolderGitIcon size={48} />, desc: "Check out my github for new projects and old school projects." },
   { title: "LinkedIn", icon: "🏃", desc: "My linkedin Page." },
   { title: "Settings", icon: "⚙️", desc: "Configuration and site-wide preferences." },
